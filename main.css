@@ -1,0 +1,162 @@
+body {
+  margin: 0;
+  padding-top: 0;
+}
+ 
+.logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.header {
+    margin-left: 25px;
+}
+
+a {
+  text-decoration: none;
+  font-family: Proxima Nova;
+  font-weight: 400;
+  font-size: 18px;
+  color: #2a2d2e;
+}
+
+.navbar-text {
+  color: #3a4142;
+  font-family: Proxima Nova;
+  font-weight: Semibold;
+  font-size: 18px;
+  padding-left: 250px;
+}
+
+.first-nav {
+  padding-left: 15px;
+}
+
+p {
+  margin: 0;
+}
+
+.welcome {
+  background-image: url('img/background.png');
+  background-repeat: no-repeat;
+  width: 1920px;
+  height: 650px;
+  text-align: center;
+  padding-top: 450px;
+  color: #df34bd;
+  font-family: Proxima Nova;
+  font-weight: 900;
+  font-size: 72px;
+}
+ 
+.about-intro{
+  color: #3a4142;
+  font-family: Proxima Nova;
+  font-weight: 900;
+  font-size: 36px;
+}
+.row {
+  width: 1920px;
+  height: 650px;
+}
+
+.col-1-3 {
+  width: 33.333333333%;
+  float: left;  
+}
+
+.col-1-3  .line-row {
+  width: 33.333333333%;
+  float: left;  
+}
+.line-img {
+  padding-top: 109px;
+  padding-left: 680px;
+}
+
+.about-image {
+  padding-left: 250px;
+}
+.about{
+  text-align: end;
+  font-family: Proxima Nova;
+  font-weight: 900;
+  font-size: 36px;
+  color: #3a4142 ;
+}
+.col-1-3 .about-row {
+  padding-top: 30px;
+  width: 33.3333333333%;
+  float: right;  
+}
+
+.shortly-about {
+  font-family: Proxima Nova;
+  font-weight: 400;
+  font-size: 16px;
+  display: block;
+  text-align: end;
+  padding-top: 50px;
+  line-height: 2;
+  color: #3a4142;
+}
+
+/*
+.line-img {
+  margin-left: 70px;
+  position: relative;
+} */
+/* 
+.about-intro {
+  position: absolute;
+	top: 1282px;
+  left: 1330px;
+  margin-bottom: 50px;
+  width: 100%;
+}
+
+
+
+.shortly-about {
+  position: absolute;
+  top: 1385px;
+  left: 1096px;
+  margin-bottom: 50px;
+  width: 100%;
+}
+
+.shortly-about span {
+  text-align: right;
+  color: #3a4142;
+  font-family: Proxima Nova;
+  font-weight: Regular;
+  font-size: 16px;
+  line-height: 24pt;
+}
+*/
+.btn-learn {
+  padding-left: 1063px;
+  padding-top: 70px;
+}
+
+.btn-learn span {
+  padding-right: 25px;
+}
+
+.pink-btn {
+  font-family: Proxima Nova;
+  font-weight: bold;
+  font-size: 18px;
+  color: #ffffff;
+  display: inline-block;
+  border: none;
+  box-sizing: border-box;
+  text-align: center;
+  text-decoration: none;
+  background: rgb(215,88,242) !important;
+  background: linear-gradient(90deg, rgba(215,88,242,1) 0%, rgba(226,94,202,1) 100%) !important;
+  border-radius: 35px;
+  width: 215px;
+  height: 48px;
+  background-color: #db51da !important;
+} 
