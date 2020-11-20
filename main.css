@@ -1,0 +1,59 @@
+body {
+  margin: 0;
+  padding-top: 0;
+}
+
+.logo {
+  margin-top: 24px;
+  margin-left: 345px;
+}
+
+.navbar {
+  margin-left: 505px;
+  margin-top: 0px;
+  bottom: 35px;
+}
+
+.nav-link {
+  color: #2a2d2e;
+  font-family: Proxima Nova;
+  font-weight: Regular;
+  font-size: 18px;
+}
+
+.navbar-text {
+  margin-left: 268px;
+  color: #3a4142;
+  font-family: Proxima Nova;
+  font-weight: Semibold;
+  font-size: 18px;
+}
+
+.first-icon {
+  margin-left: 40px;
+}
+
+.icons {
+  margin-left: 20px;
+}
+
+.image {
+	position: relative;
+	width: 100%;
+}
+
+.intro {
+	position: absolute;
+	top: 440px;
+	left: 635px;
+  width: 100%;
+  color: #d836d3;
+  font-family: Proxima Nova;
+  font-weight: 900;
+  font-size: 72px;
+}
+
+.intro span {
+  color: #ed3090;
+	padding	: 10px;
+}
