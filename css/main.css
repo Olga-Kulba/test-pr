@@ -1,39 +1,45 @@
 body {
   margin: 0;
   padding-top: 0;
+  font-family: Proxima Nova;
 }
- 
+
+.color {
+  color: #3a4142;
+}
+
 .logo {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-.header {
-    margin-left: 25px;
+  padding-top: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 a {
   text-decoration: none;
-  font-family: Proxima Nova;
   font-weight: 400;
   font-size: 18px;
   color: #2a2d2e;
 }
- a:hover {
+
+a:hover {
   color: #2e6476;
   text-decoration: none;
- }
+}
 
 .navbar-text {
-  color: #3a4142;
-  font-family: Proxima Nova;
   font-weight: Semibold;
   font-size: 18px;
   padding-left: 250px;
+  padding-right: 50px;
+}
+
+.icons {
+  padding-right: 25px;
 }
 
 .first-nav {
-  padding-left: 15px;
+  padding-left: 100px;
 }
 
 p {
@@ -41,97 +47,80 @@ p {
 }
 
 .welcome {
-  background-image: url('img/background.png');
+  background-image: url('../public/img/background.png');
   background-repeat: no-repeat;
-  width: 1920px;
+  width: 100%;
   height: 650px;
   text-align: center;
   padding-top: 450px;
   color: #df34bd;
-  font-family: Proxima Nova;
+  text-transform: uppercase;
   font-weight: 900;
   font-size: 72px;
 }
- 
-.about-intro{
-  color: #3a4142;
-  font-family: Proxima Nova;
-  font-weight: 900;
-  font-size: 36px;
-}
-.row {
-  width: 1920px;
-  height: 650px;
-}
 
-.col-1-3 {
-  width: 33.333333333%;
+.col-1-2 {
+  width: 60%;
   float: left;  
-}
-
-.col-1-3  .line-row {
-  width: 33.333333333%;
-  float: left;  
-}
-.line-img {
-  padding-top: 109px;
-  padding-left: 667px;
 }
 
 .about-image {
   padding-left: 250px;
 }
+
 .about{
-  padding-right: 25px;
+  padding-right: 130px;
   text-align: end;
   font-family: Proxima Nova;
   font-weight: 900;
   font-size: 36px;
-  color: #3a4142 ;
 }
-.col-1-3 .about-row {
-  padding-top: 30px;
-  width: 33.3333333333%;
+
+.about-row {
+  border-left: 5px solid #efefef;
+  border-bottom: 5px solid #efefef;
+  padding-left: 50px;
+  margin-bottom: 360px;
+  margin-left: 135px;
+  width: 40%;
   float: right;  
 }
 
+.shortly-about-intro {
+position: relative;
+}
+
 .shortly-about {
-  font-family: Proxima Nova;
+  padding-right: 130px;
   font-weight: 400;
   font-size: 16px;
-  display: block;
   text-align: end;
   padding-top: 50px;
-  line-height: 2;
-  color: #3a4142;
-  padding-right: 25px;
+  line-height: 2em;
 }
 
 .btn-learn {
-  padding-left: 1046px;
-  padding-top: 70px;
+  padding: 70px 0 30px 360px;
 }
 
 .btn-learn span {
   padding-right: 25px;
-}
-
-.pink-btn {
-  font-family: Proxima Nova;
+  text-align: center;
   font-weight: bold;
   font-size: 18px;
   color: #ffffff;
+}
+
+.pink-btn {
   display: inline-block;
   border: none;
   box-sizing: border-box;
-  text-align: center;
-  text-decoration: none;
-  background: rgb(215,88,242) !important;
-  background: linear-gradient(90deg, rgba(215,88,242,1) 0%, rgba(226,94,202,1) 100%) !important;
+  background: rgb(215,88,242);
+  background: linear-gradient(90deg, rgba(215,88,242,1) 0%, rgba(226,94,202,1) 100%);
   border-radius: 35px;
   width: 215px;
   height: 48px;
-  background-color: #db51da !important;
+  background-color: #db51da;
 } 
 
 .line {
@@ -139,7 +128,7 @@ p {
   background-color: #f5f5f5;
   height: 5px;
 }
-
+ 
 .row {
   display: flex;
 }
@@ -147,19 +136,16 @@ p {
 .text-header {
   padding-left: 50px;
   margin-block-start: 2em;
-  font-family: Proxima Nova;
   font-weight: 900;
   font-size: 36px;
-  color: #3a4142  
 }
 
 .text-content {
-  font-family: Proxima Nova;
   font-weight: 400;
   font-size: 16px;
   color: #4a4a4a;
   margin-block-start: 1em;
-  line-height: 2;
+  line-height: 2em;
   padding-left: 50px;
 }
 
@@ -176,18 +162,19 @@ p {
 }
 
 .img1 {
-  background-image: url('img/Forma 1.png');
+  background-image: url('../public/img/Forma-1.png');
   background-repeat: no-repeat;
   background-position: center;
 }
 
 .img2 {
-  background-image: url('img/Forma 2.png');
+  background-image: url('../public/img/Forma-2.png');
   background-repeat: no-repeat;
   background-position: center;
 }
+
 .img3 {
-  background-image: url('img/Forma 3.png');
+  background-image: url('../public/img/Forma-3.png');
   background-repeat: no-repeat;
   background-position: center;
 }
@@ -197,6 +184,7 @@ p {
   flex-wrap: wrap;
   justify-content: space-around;
 }
+
 .circle {
   margin-top: 20px;
   width: 10px;
@@ -208,37 +196,58 @@ p {
 }
 
 .img4 {
-  background-image: url('img/Forma 4.png');
+  background-image: url('../public/img/Forma-4.png');
   background-repeat: no-repeat;
   background-position: center;
 }
 
 .img5 {
-  background-image: url('img/Forma 5.png');
+  background-image: url('../public/img/Forma-5.png');
   background-repeat: no-repeat;
   background-position: center;
 }
+
 .img6 {
-  background-image: url('img/Forma 6.png');
+  background-image: url('../public/img/Forma-6.png');
   background-repeat: no-repeat;
   background-position: center;
 }
 
 .text {
-  padding-top: 20px;
+  padding-top: 5px;
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-around;
-  font-family: Proxima Nova;
   font-weight: 900;
   font-size: 16px;
   color: #3c3b3b;
+}
+
+.text-first {
+  padding-left: 45px;
+  padding-right: 72px;
+}
+
+.text-second {
+  padding-right: 68px;
+}
+
+.text-first1 {
+  padding-left: 55px;
+  padding-right: 123px;
+}
+
+.text-second1 {
+  padding-right: 120px;
 }
 
 .second-container {
   width: 70%;
   text-align: center;
   padding-top: 50px;
+}
+
+.second-container img {
+  padding-left: 200px;
 }
 
 .new-btn {
@@ -248,4 +257,64 @@ p {
 
 .new-line {
   margin-top: 200px;
+}
+
+.logo-to-port {
+  width: 20%;
+  text-align: end;
+  padding-top: 100px;
+}
+
+.port-header {
+  height: 300px;
+}
+
+.intro-to-port {
+  width: 70%;
+  text-align: end;
+  padding-top: 80px;
+}
+
+.port-text-header {
+  line-height: 2.2em;
+  font-weight: 900;
+  font-size: 36px;
+}
+
+.port-text-content {
+  font-weight: 400;
+  font-size: 16px;
+  color: #4a4a4a;
+  line-height: 2em;
+}
+
+.purple-img {
+  width: 75%;
+  padding-left: 293px;
+}
+
+.port-text {
+  padding-top: 50px;
+  padding-left: 380px;
+  font-weight: 900;
+  font-size: 30px;
+  color: #ffffff;
+} 
+
+.second-img {
+  width: 44%;
+  flex-direction: row;
+  display: flex;
+  justify-content: space-between;
+  padding-top: 50px;
+  padding-left: 307px;
+}
+
+.second-img-text {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 27%;
+  padding-left: 368px;
+  padding-top: 22px;
 }

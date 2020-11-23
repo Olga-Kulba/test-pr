@@ -3,73 +3,75 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="main.css">
+  <link rel="stylesheet" href="css/main.css">
   <title>START-UP</title>
 </head>
 <body>
   <header>
     <div class="logo">
-      <img class="img-logo" src="img/logo.png" alt="startup logo">
+      <img class="img-logo" src="public/img/logo.png" alt="startup logo">
       <nav class=" header navbar">
-              <a class="header nav-link first-nav" href="#">Services</a>
-              <a class="header nav-link" href="#">About us</a>
-              <a class="header nav-link" href="#">Reviews</a>
-              <a class="header nav-link" href="#">Portfolio</a>
-              <a class="header nav-link" href="#">Contact</a>
+        <a class="header nav-link first-nav" href="#">Services</a>
+        <a class="header nav-link" href="#">About us</a>
+        <a class="header nav-link" href="#">Reviews</a>
+        <a class="header nav-link" href="#">Portfolio</a>
+        <a class="header nav-link" href="#">Contact</a>
       </nav> 
       <div>
-       <span class="header navbar-text">
+       <span class="header navbar-text color">
         + ( 373 ) 60 817 818
         </span>
       </div>
       <div>
-        <span class="header first-icon">
-          <img src="img/logo - Twitter.png" alt="Twitter logo">
+        <span class="icons first-icon">
+          <img src="public/img/Twitter.svg" alt="Twitter logo">
         </span>
        </div>
       <div>
-        <span class="header icons">
-           <img src="img/logo - Facebook.png" alt="Twitter logo">
+        <span class="icons">
+           <img src="public/img/Facebook.svg" alt="Facebook logo">
         </span>
       </div>
       <div>
-        <span class="header icons">
-          <img src="img/logo - dribbble.png" alt="Twitter logo">
+        <span class="icons">
+          <img src="public/img/dribbble.svg" alt="Dribble logo">
         </span>
       </div>
       <div>
-        <span class="header icons">
-          <img src="img/logo - LinkedIn.png" alt="Twitter logo">
+        <span class="icons">
+          <img src="public/img/LinkedIn.svg" alt="LinkedIn logo">
         </span>
       </div>
     </div>
-   
   </header>
-  <section id="welcome">
+  <section id="welcome-section">
     <div class="welcome">
-        <p>WE ARE CREATIVE</p>
+      <p>we are creative</p>
   </div>
   </section>
-
   <section id="about">
     <div class="main">
       <div class="container">
         <div class="row">
-          <div class="col-1-3">
-            <img class="about-image" src="img/base.png" alt="base image">
+          <div class="col-1-2">
+            <img class="about-image" src="public/img/base.png" alt="base image">
           </div>
-          <div class="col-1-3 line-row">
-            <img class= "line-img" src="img/line.png" alt="line">
-              <div class="btn-learn">
-                <button type="button" class="pink-btn"><span>learn more</span> <img src="img/arrow.png"></button>
-              </div>
-          </div>
-          <div class="col-1-3 about-row">
-            <p class="about">Shortly about us</p>
-            <p class="shortly-about">We are a fairly small, flexible design studio that designs for print and web.<br> We work flexibly with clients to fulfil their design needs. Whether you need<br> to create a brand from scratch, including marketing materials and a beauti-<br>ful and functional website or whether you are looking for a design refresh<br> we are confident you will be pleased with the results</p>  
+          <div class="col-1-2 about-row">
+            <p class="about color">Shortly about us</p>
+            <div class="shortly-about-intro">
+              <p class="shortly-about color">We are a fairly small, flexible design studio that designs for print and web. 
+                We work flexibly with clients to fulfil their design needs. Whether you need to create a brand from scratch,
+                including marketing materials and a beautiful and functional website or whether you are looking for a design
+                refresh we are confident you will be pleased with the results</p>  
+            </div>
+            <div class="btn-learn">
+              <button type="button" class="pink-btn"><span>learn more</span> <img src="public/img/arrow.svg"></button>
+            </div>
           </div>
         </div>
-        <hr class="line">
+      </div>
+    </div>
+  <hr class="line">
   </section>
   <section id="service">
     <div class="main">
@@ -77,18 +79,18 @@
         <div class="row">
           <div class="col-1-2 first-container">
             <div>
-              <p class="text-header">Our services</p>
+              <p class="text-header color">Our services</p>
               <p class="text-content">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
               <div class="img-container">
                 <div class="img1">
-                  <img src="img/ellipse.png">
+                  <img src="public/img/ellipse.png">
                 </div>
                 <div class="img2">
-                  <img src="img/ellipse.png">
+                  <img src="public/img/ellipse.png">
                   <img src="" alt="">
                 </div>
                 <div class="img3">
-                  <img src="img/ellipse.png">
+                  <img src="public/img/ellipse.png">
                 </div>
               </div>
               <div class="circles">
@@ -97,21 +99,21 @@
                 <div class="circle"></div>
               </div>
               <div class="text">
-                <p>Branding</p>
-                <p>Web applications</p>
-                <p>Support</p>
+                <p class="text-first">Branding</p>
+                <p class="text-second">Web applications</p>
+                <p class="text-third">Support</p>
               </div>
               
               <div class="img-container">
                 <div class="img4">
-                  <img src="img/ellipse.png">
+                  <img src="public/img/ellipse.png">
                 </div>
                 <div class="img5">
-                  <img src="img/ellipse.png">
+                  <img src="public/img/ellipse.png">
                   <img src="" alt="">
                 </div>
                 <div class="img6">
-                  <img src="img/ellipse.png">
+                  <img src="public/img/ellipse.png">
                 </div>
               </div>
               <div class="circles">
@@ -120,22 +122,58 @@
                 <div class="circle"></div>
               </div>
               <div class="text">
-                <p>Design</p>
-                <p>SEO</p>
+                <p class="text-first1">Design</p>
+                <p class="text-second1">SEO</p>
                 <p>Coding</p>
               </div>
               <div class="btn-learn new-btn">
-                <button type="button" class="pink-btn"><span>learn more</span> <img src="img/arrow.png"></button>
+                <button type="button" class="pink-btn"><span>learn more</span> <img src="public/img/arrow.png"></button>
               </div>
             </div>
           </div>
           <div class="col-1-2 second-container">
-            <img src="img/your image1.png" alt="art image">   
+            <img src="public/img/your-image1.png" alt="art image">   
           </div>
         </div>
         <hr class="line new-line">
-
   </section>
+
+  <section id="portfolio">
+    <div class="port-header">
+      <div class="container">
+        <div class="row">
+          <div class="col-1-2 logo-to-port">
+            <img class="logo2" src="public/img/logo2.png" alt="logo image">
+          </div>
+          <div class="col-1-2 intro-to-port">
+            <div>
+              <p class="port-text-header color">Our portfolio</p>
+              <p class="port-text-content">Lorem Ipsum is simply dummy text of the printing and typesetting industry.<br>
+                Lorem Ipsum has been the industry's standard</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="port-img">
+      <div class="first-img"> 
+        <img class="purple-img" src="public/img/img1.png" alt="portfolio first image">
+        <p class="port-text">
+          Title about work
+          </p> 
+      </div>
+      <div class="second-img-text">
+        <div class="test">
+          <p>About work</p>
+          <p>About work</p>
+        </div>
+      </div>
+      <div class="second-img">
+       <img src="public/img/img2.png">
+       <img src="public/img/img3.png">
+      </div>
+    </div>
+  </section> 
 
 </body>
 </html>
