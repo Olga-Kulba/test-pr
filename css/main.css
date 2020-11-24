@@ -3,9 +3,10 @@ body {
   padding-top: 0;
   font-family: Proxima Nova;
 }
+
 #about {
   padding-left: 300px;
-  padding-right: 250px;
+  padding-right: 300px;
 }
 
 .color {
@@ -76,6 +77,14 @@ p {
   font-size: 36px;
 }
 
+.main {
+  display: flex;
+}
+
+.main-row {
+  display: flex;
+}
+
 .about-row {
   border-left: 5px solid #efefef;
   border-bottom: 5px solid #efefef;
@@ -126,13 +135,15 @@ p {
   height: 5px;
 }
 
-#section {
+#service {
   padding-left: 300px;
-  padding-right: 250px;
+  padding-right: 300px;
 }
 
-.row {
+.service-row {
   display: flex;
+  padding-top: 50px;
+  padding-bottom: 150px;
 }
 
 .text-header {
@@ -153,7 +164,6 @@ p {
 
 .first-container {
   width: 30%;
-  padding-left: 250px;
 }
 
 .img-container {
@@ -163,19 +173,19 @@ p {
   justify-content: space-around;
 }
 
-.img1 {
+.ellipse-brand {
   background-image: url('../public/img/Forma-1.png');
   background-repeat: no-repeat;
   background-position: center;
 }
 
-.img2 {
+.ellipse-app {
   background-image: url('../public/img/Forma-2.png');
   background-repeat: no-repeat;
   background-position: center;
 }
 
-.img3 {
+.ellipse-support {
   background-image: url('../public/img/Forma-3.png');
   background-repeat: no-repeat;
   background-position: center;
@@ -197,19 +207,19 @@ p {
   border-radius: 5px;
 }
 
-.img4 {
+.ellipse-design {
   background-image: url('../public/img/Forma-4.png');
   background-repeat: no-repeat;
   background-position: center;
 }
 
-.img5 {
+.ellipse-seo {
   background-image: url('../public/img/Forma-5.png');
   background-repeat: no-repeat;
   background-position: center;
 }
 
-.img6 {
+.ellipse-coding {
   background-image: url('../public/img/Forma-6.png');
   background-repeat: no-repeat;
   background-position: center;
@@ -222,30 +232,22 @@ p {
   font-weight: 900;
   font-size: 16px;
   color: #3c3b3b;
+  justify-content: space-around;
 }
 
-.text-first {
-  padding-left: 45px;
-  padding-right: 72px;
+.text-brand {
+  padding-left: 10px;
 }
 
-.text-second {
-  padding-right: 68px;
-}
-
-.text-first1 {
-  padding-left: 55px;
-  padding-right: 123px;
-}
-
-.text-second1 {
-  padding-right: 120px;
+.text-support {
+  padding-right: 20px;
 }
 
 .second-container {
   width: 70%;
   text-align: center;
-  padding-top: 50px;
+  display: flex;
+  justify-content: flex-end;
 }
 
 .new-btn {
@@ -254,19 +256,17 @@ p {
   padding: 50px 0 0 35px;
 }
 
-.new-line {
-  margin-top: 200px;
-  width: 70%;
-}
-
 #portfolio {
-  padding: 80px 250px 120px 300px;
+  padding: 80px 300px 120px 300px;
 }
 
 .logo-to-port {
   width: 6%;
-  text-align: end;
-  padding-top: 100px;
+  padding-top: 50px;
+}
+
+.port-row {
+  align-items: center;
 }
 
 .port-header {
@@ -293,7 +293,6 @@ p {
 
 .purple-img {
   width: 100%;
-  padding-right: 45px;
   padding-top: 60px;
 }
 
@@ -303,7 +302,7 @@ p {
   justify-content: center;
 }
 
- .second-img {
+.second-img {
   display: flex;
   padding-top: 70px;
 }
@@ -318,10 +317,6 @@ p {
   width: 96%;
   padding-bottom: 50px;
 } 
-
-.other-block {
-  padding-right: 45px;
-}
 
 .img-item {
   padding-right: 70px;
@@ -352,7 +347,7 @@ p {
 
 #reviews {
   padding-left: 300px;
-  padding-right: 250px;
+  padding-right: 300px;
 }
 
 .header-review hr {
@@ -392,7 +387,9 @@ p {
 }
 
 .people {
+  display: flex;
   justify-content: space-between;
+  padding-bottom: 150px;
 }
 
 .block {
@@ -413,24 +410,24 @@ p {
   justify-content: space-between;
   padding-bottom: 150px;
 }
+
 .names {
+  padding-top: 10px;
   font-family: Raleway;
   font-size: 14px;
   font-weight: 600;
 }
 
 .alex-name {
-  padding-left: 34px;
-  padding-top: 20px;
+  padding-left: 45px;
 }
 
 .michael-name {
-  padding-right: 485px;
-  padding-top: 20px;
+  padding-left: 30px;
 }
 
 #contact {
-  padding: 70px 250px 100px 300px;
+  padding: 70px 300px 100px 300px;
   display: flex;
   justify-content: space-between;
 }
@@ -447,7 +444,6 @@ p {
   font-size: 32px;
   font-weight: 900;  
   padding-bottom: 40px;
-
 }
 
 .name, .email, .message {
@@ -462,7 +458,6 @@ p {
 .icon-block img {
   padding: 20px 0px 10px 30px;
   width: 50%;
-
 }
 
 .inputs p {
@@ -488,7 +483,6 @@ p {
 
 .call img {
   padding-right: 30px;
-
 }
 
 .call p {
@@ -502,6 +496,10 @@ p {
 
 .location-img {
   padding-bottom: 70px;
+}
+
+.location-img span {
+  padding-left: 50px;
 }
 
 .footer {
