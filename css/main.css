@@ -297,14 +297,6 @@ p {
   padding-top: 60px;
 }
 
-.port-text {
-  padding-top: 50px;
-  padding-left: 380px;
-  font-weight: 900;
-  font-size: 30px;
-  color: #ffffff;
-} 
-
 .first-img {
   display: flex;
   flex-wrap: wrap;
