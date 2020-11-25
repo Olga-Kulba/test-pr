@@ -4,9 +4,10 @@ body {
   font-family: Proxima Nova;
 }
 
-#about {
-  padding-left: 300px;
-  padding-right: 300px;
+header {
+  display: flex;
+  justify-content: space-between;
+  padding: 30px 302px 0 345px;
 }
 
 .color {
@@ -14,8 +15,6 @@ body {
 }
 
 .logo {
-  padding-top: 50px;
-  display: flex;
   justify-content: center;
   align-items: center;
 }
@@ -25,7 +24,6 @@ a {
   font-weight: 400;
   font-size: 18px;
   color: #2a2d2e;
-  padding-right: 20px;
 }
 
 a:hover {
@@ -37,15 +35,33 @@ a:hover {
   font-weight: Semibold;
   font-size: 18px;
   padding-left: 250px;
-  padding-right: 50px;
+  padding-right: 40px;
 }
 
 .icons {
-  padding-right: 25px;
+  padding-right: 20px;
 }
 
-.first-nav {
+.service-nav{
   padding-left: 100px;
+  padding-right: 31px;
+}
+
+.about-nav, .reviews-nav {
+  padding-right: 38px;
+}
+
+.portfolio-nav {
+  padding-right: 27px;
+}
+
+.contact-nav {
+  padding-right: 32px;
+}
+
+#about {
+  padding: 0px 250px;
+  margin-bottom: 50px;
 }
 
 p {
@@ -58,11 +74,12 @@ p {
   width: 100%;
   height: 650px;
   text-align: center;
-  padding-top: 450px;
   color: #df34bd;
   text-transform: uppercase;
   font-weight: 900;
   font-size: 72px;
+  letter-spacing: 1px;
+  padding-top: 418px;
 }
 
 .col-1-2 {
@@ -75,13 +92,18 @@ p {
   font-family: Proxima Nova;
   font-weight: 900;
   font-size: 36px;
+  margin-bottom: 50px;
+  padding-right: 50px;
+  padding-left: 109px;
 }
+
+.row {
+  height: 720px;
+  padding-left: 50px;
+  padding-right: 50px;
+} 
 
 .main {
-  display: flex;
-}
-
-.main-row {
   display: flex;
 }
 
@@ -99,14 +121,12 @@ p {
   font-weight: 400;
   font-size: 16px;
   text-align: end;
-  padding-top: 50px;
   line-height: 2em;
+  margin-bottom: 50px;
 }
 
 .btn-learn {
-  display: flex;
   justify-content: flex-end;
-  padding-top: 50px;
 }
 
 .btn-learn span {
@@ -136,14 +156,12 @@ p {
 }
 
 #service {
-  padding-left: 300px;
-  padding-right: 300px;
+  padding: 0px 300px;
+  margin-bottom: 50px;
 }
 
 .service-row {
-  display: flex;
-  padding-top: 50px;
-  padding-bottom: 150px;
+  margin-bottom: 100px;
 }
 
 .text-header {
@@ -168,7 +186,6 @@ p {
 
 .img-container {
   padding-top: 50px;
-  display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
 }
@@ -192,7 +209,6 @@ p {
 }
 
 .circles {
-  display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
 }
@@ -227,12 +243,15 @@ p {
 
 .text {
   padding-top: 5px;
-  display: flex;
   flex-wrap: wrap;
   font-weight: 900;
   font-size: 16px;
   color: #3c3b3b;
   justify-content: space-around;
+}
+
+.next-text {
+  margin-bottom: 50px;
 }
 
 .text-brand {
@@ -246,18 +265,17 @@ p {
 .second-container {
   width: 70%;
   text-align: center;
-  display: flex;
   justify-content: flex-end;
 }
 
 .new-btn {
-  display: flex;
   justify-content: flex-start;
   padding: 50px 0 0 35px;
 }
 
 #portfolio {
-  padding: 80px 300px 120px 300px;
+  padding:0px 300px;
+  margin-bottom: 120px;
 }
 
 .logo-to-port {
@@ -293,22 +311,18 @@ p {
 
 .purple-img {
   width: 100%;
-  padding-top: 60px;
 }
 
 .first-img {
-  display: flex;
   flex-wrap: wrap;
   justify-content: center;
 }
 
 .second-img {
-  display: flex;
   padding-top: 70px;
 }
 
 .blocks {
-  display: flex;
   flex-wrap: wrap;
 }
 
@@ -318,12 +332,11 @@ p {
   padding-bottom: 50px;
 } 
 
-.img-item {
-  padding-right: 70px;
+ .img-item:nth-child(n) {
+  margin-right: 70px;
 }
 
 .footer-port {
-  display: flex;
   justify-content: space-between;
   padding-top: 50px;
 }
@@ -346,8 +359,8 @@ p {
 }
 
 #reviews {
-  padding-left: 300px;
-  padding-right: 300px;
+  padding: 0px 300px;
+  margin-bottom: 70px;
 }
 
 .header-review hr {
@@ -363,11 +376,10 @@ p {
 }
 
 .header-review {
-  display: flex;
   align-items: baseline;
   font-size: 36px;
   font-weight: 900;
-  padding-bottom: 150px;
+  margin-bottom: 150px;
 }
 
 .left {
@@ -384,31 +396,20 @@ p {
   background-color: #f7f7f7;
   border-left: 5px solid #de4bc6;
   padding: 20px 20px 0 20px;
+  margin-left: 30px;
 }
 
 .people {
-  display: flex;
   justify-content: space-between;
-  padding-bottom: 150px;
-}
-
-.block {
-  display: flex;
+  margin-bottom: 150px;
 }
 
 .people img {
-  padding-right: 30px;
   width: 120px;
 }
 
 .michael {
   padding-right: 35px;
-}
-
-.name-block {
-  display: flex;
-  justify-content: space-between;
-  padding-bottom: 150px;
 }
 
 .names {
@@ -419,21 +420,28 @@ p {
 }
 
 .alex-name {
-  padding-left: 45px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .michael-name {
-  padding-left: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 #contact {
-  padding: 70px 300px 100px 300px;
-  display: flex;
+  padding:0px 300px;
   justify-content: space-between;
+  margin-bottom: 100px;
 }
 
 .contact-block {
   display: inline-flex;
+  margin-bottom: 50px;
 }
 
 .contact-info {
@@ -443,7 +451,10 @@ p {
 .hello {
   font-size: 32px;
   font-weight: 900;  
-  padding-bottom: 40px;
+}
+
+.hello-info {
+margin-bottom: 40px;
 }
 
 .name, .email, .message {
@@ -452,7 +463,8 @@ p {
 }
 
 .icon-block {
-  display: grid;
+  display: flex;
+  flex-direction: column;
 }
 
 .icon-block img {
@@ -468,7 +480,7 @@ p {
 }
 
 .btn-send {
-  padding-top: 50px;
+  padding-top: 15px;
 }
 
 .btn-send span {
@@ -478,7 +490,9 @@ p {
 }
 
 .call {
-  display: inline-grid;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 .call img {
@@ -491,11 +505,11 @@ p {
 }
 
 .phone-img {
-  padding-top: 116px;
+  padding-bottom: 30px;
 }
 
-.location-img {
-  padding-bottom: 70px;
+.email-img {
+  padding-bottom: 30px;
 }
 
 .location-img span {

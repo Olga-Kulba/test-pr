@@ -8,14 +8,14 @@
 </head>
 <body>
   <header>
-    <div class="logo">
+    <div class="logo main">
       <img class="img-logo" src="public/img/logo.png" alt="startup logo">
       <nav class=" header navbar">
-        <a class="header nav-link first-nav" href="#">Services</a>
-        <a class="header nav-link" href="#">About us</a>
-        <a class="header nav-link" href="#">Reviews</a>
-        <a class="header nav-link" href="#">Portfolio</a>
-        <a class="header nav-link" href="#">Contact</a>
+        <a class="header nav-link service-nav" href="#">Services</a>
+        <a class="header nav-link about-nav" href="#">About us</a>
+        <a class="header nav-link reviews-nav" href="#">Reviews</a>
+        <a class="header nav-link portfolio-nav" href="#">Portfolio</a>
+        <a class="header nav-link contact-nav" href="#">Contact</a>
       </nav> 
       <div>
        <span class="header navbar-text color">
@@ -51,22 +51,20 @@
   </section>
   <section id="about">
     <div class="main">
-      <div class="container">
-        <div class="row main-row">
-          <div class="col-1-2">
-            <img class="about-image" src="public/img/base.png" alt="base image">
+      <div class="row main">
+        <div class="col-1-2">
+          <img class="about-image" src="public/img/base.png" alt="base image">
+        </div>
+        <div class="col-1-2 about-row">
+          <p class="about color">Shortly about us</p>
+          <div class="shortly-about-intro">
+            <p class="shortly-about color">We are a fairly small, flexible design studio that designs for print and web. 
+              We work flexibly with clients to fulfil their design needs. Whether you need to create a brand from scratch,
+              including marketing materials and a beautiful and functional website or whether you are looking for a design
+              refresh we are confident you will be pleased with the results</p>  
           </div>
-          <div class="col-1-2 about-row">
-            <p class="about color">Shortly about us</p>
-            <div class="shortly-about-intro">
-              <p class="shortly-about color">We are a fairly small, flexible design studio that designs for print and web. 
-                We work flexibly with clients to fulfil their design needs. Whether you need to create a brand from scratch,
-                including marketing materials and a beautiful and functional website or whether you are looking for a design
-                refresh we are confident you will be pleased with the results</p>  
-            </div>
-            <div class="btn-learn">
-              <button type="button" class="pink-btn"><span>learn more</span> <img src="public/img/arrow.svg" alt="arrow image"></button>
-            </div>
+          <div class="btn-learn main">
+            <button type="button" class="pink-btn"><span>learn more</span> <img src="public/img/arrow.svg" alt="arrow image"></button>
           </div>
         </div>
       </div>
@@ -81,7 +79,7 @@
             <div>
               <p class="text-header color">Our services</p>
               <p class="text-content">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
-              <div class="img-container">
+              <div class="img-container main">
                 <div class="ellipse-brand">
                   <img src="public/img/ellipse.png" alt="ellipse image">
                 </div>
@@ -92,17 +90,17 @@
                   <img src="public/img/ellipse.png" alt="ellipse image">
                 </div>
               </div>
-              <div class="circles">
+              <div class="circles main">
                 <div class="circle"></div>
                 <div class="circle"></div>
                 <div class="circle"></div>
               </div>
-              <div class="text">
+              <div class="text main">
                 <p class="text-brand">Branding</p>
                 <p class="text-app">Web applications</p>
                 <p class="text-support">Support</p>
               </div>
-              <div class="img-container">
+              <div class="img-container main">
                 <div class="ellipse-design">
                   <img src="public/img/ellipse.png" alt="ellipse image">
                 </div>
@@ -113,22 +111,22 @@
                   <img src="public/img/ellipse.png" alt="ellipse image">
                 </div>
               </div>
-              <div class="circles">
+              <div class="circles main">
                 <div class="circle"></div>
                 <div class="circle"></div>
                 <div class="circle"></div>
               </div>
-              <div class="text">
+              <div class="text next-text main">
                 <p class="text-design">Design</p>
                 <p class="text-seo">SEO</p>
                 <p class="text-coding">Coding</p>
               </div>
-              <div class="btn-learn new-btn">
+              <div class="btn-learn new-btn main">
                 <button type="button" class="pink-btn"><span>learn more</span> <img src="public/img/arrow.png" alt="arrow image"></button>
               </div>
             </div>
           </div>
-          <div class="col-1-2 second-container">
+          <div class="col-1-2 second-container main">
             <img src="public/img/your-image1.png" alt="art image">   
           </div>
         </div>
@@ -152,12 +150,12 @@
       </div>
     </div>
     <div class="port-img">
-      <div class="first-img"> 
+      <div class="first-img main"> 
         <img class="purple-img" src="public/img/img1.png" alt="portfolio first image">
       </div>
-      <div class="second-img">
+      <div class="second-img main">
         <div class="wrapper">
-          <div class="blocks">
+          <div class="blocks main">
             <div class="img-item">
               <img src="public/img/img2.png" alt="portfolio art image">
             </div>
@@ -179,7 +177,7 @@
         </div>
       </div>
     </div>
-    <div class="footer-port">
+    <div class="footer-port main">
       <p class="port-text-footer">
         Lorem Ipsum is simply dummy text of the printing and typesetting industry.<br>
         Lorem Ipsum has been the industry's standard dummy text ever since the 1500s
@@ -190,14 +188,14 @@
     </div>
   </section> 
   <section id="reviews">
-    <div class="header-review">
+    <div class="header-review main">
       <p>What people says</p>
       <hr>
       <img class="left" src="public/img/left.png" alt="left arrow">
       <img class="right" src="public/img/right.png" alt="right arrow">
     </div>
-    <div class="people block">
-      <div class="alex block">
+    <div class="people main">
+      <div class="alex main">
         <div>
           <img src="public/img/image10.png" alt="Alex photo">
           <p class="alex-name names">Alex</p>
@@ -209,7 +207,7 @@
           </p>
         </div>
       </div>
-      <div class="michael block">
+      <div class="michael main">
         <div>
           <img src="public/img/image11.png" alt="Michael photo">
           <p class="michael-name names">Michael</p>
@@ -224,9 +222,11 @@
     </div>
   <hr class="line">
   </section>
-  <section id="contact">
+  <section id="contact" class="main">
     <div class="contact-info">
-      <p class="hello">Say hello!</p>
+      <div class="hello-info">
+        <p class="hello">Say hello!</p>
+      </div>
       <div class="contact-block">
         <div class="inputs">
           <p class="name">Name</p> 
@@ -247,12 +247,12 @@
     <div class="call">
       <p class="phone-img"><img src="public/img/call.png" alt="phone image">+ ( 373 ) 60 817818</p>
       <p class="email-img"><img src="public/img/1.png" alt="email image">belicov.dmitrii@gmail.com</p>
-      <p class="location-img"><img src="public/img/2.png" alt="location image">Transnistria , Bendery <br><span>Indusrial 59 / 3</span></p>
+      <p class="location-img"><img src="public/img/2.png" alt="location image">Transnistria, Bendery <br> Indusrial 59 / 3</p>
     </div>
   </section>
   <footer>
     <div class="footer">
-      <div class="logo">
+      <div class="footer-nav logo main">
         <img class="img-logo" src="public/img/logo3.png" alt="startup logo">
         <nav class="header navbar">
           <a class="foot-col header nav-link first-nav" href="#">Services</a>
