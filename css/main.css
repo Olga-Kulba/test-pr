@@ -7,7 +7,7 @@ body {
 header {
   display: flex;
   justify-content: space-between;
-  padding: 30px 302px 0 345px;
+  padding: 20px 302px 0 345px;
 }
 
 .color {
@@ -92,13 +92,13 @@ p {
   font-family: Proxima Nova;
   font-weight: 900;
   font-size: 36px;
-  margin-bottom: 50px;
-  padding-right: 50px;
+  margin-bottom: 40px;
+  padding-right: 25px;
   padding-left: 109px;
 }
 
 .row {
-  height: 720px;
+  height: 600px;
   padding-left: 50px;
   padding-right: 50px;
 } 
@@ -111,8 +111,7 @@ p {
   border-left: 5px solid #efefef;
   border-bottom: 5px solid #efefef;
   padding-left: 50px;
-  margin-bottom: 360px;
-  margin-left: 135px;
+  margin-bottom: 300px;
   width: 40%;
   float: right;  
 }
@@ -123,6 +122,7 @@ p {
   text-align: end;
   line-height: 2em;
   margin-bottom: 50px;
+  padding-right: 25px;
 }
 
 .btn-learn {
@@ -130,11 +130,11 @@ p {
 }
 
 .btn-learn span {
-  padding-right: 25px;
+  padding-right: 80px;
   text-align: center;
   font-weight: bold;
   font-size: 18px;
-  color: #ffffff;
+  color: #ffffff
 }
 
 .pink-btn {
@@ -144,8 +144,8 @@ p {
   background: rgb(215,88,242);
   background: linear-gradient(90deg, rgba(215,88,242,1) 0%, rgba(226,94,202,1) 100%);
   border-radius: 35px;
-  width: 215px;
-  height: 48px;
+  width: 300px;
+  height: 60px;
   background-color: #db51da;
 } 
 
@@ -156,16 +156,16 @@ p {
 }
 
 #service {
-  padding: 0px 300px;
+  padding: 0px 250px;
   margin-bottom: 50px;
 }
 
 .service-row {
-  margin-bottom: 100px;
+  margin-bottom: 250px;
 }
 
 .text-header {
-  padding-left: 50px;
+  padding-left: 20px;
   margin-block-start: 2em;
   font-weight: 900;
   font-size: 36px;
@@ -177,7 +177,7 @@ p {
   color: #4a4a4a;
   margin-block-start: 1em;
   line-height: 2em;
-  padding-left: 50px;
+  padding-left: 20px;
 }
 
 .first-container {
@@ -188,6 +188,10 @@ p {
   padding-top: 50px;
   flex-wrap: wrap;
   justify-content: space-around;
+}
+
+.ellipse {
+  margin-right: 30px;
 }
 
 .ellipse-brand {
@@ -519,13 +523,121 @@ margin-bottom: 40px;
 .footer {
   background-image: url('../public/img/bgf.png');
   background-repeat: no-repeat;
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 302px 0 345px;
 }
 
+
 .footer .logo {
-  padding-top: 200px;
+  padding-top: 180px;
   padding-bottom: 50px;
 }
 
 .foot-col {
   color: #ffffff;
+}
+
+.foot-service {
+  padding-left: 100px;
+  padding-right: 20px;
+}
+
+.foot-about {
+  padding-right: 35px;
+}
+
+.foot-review {
+  padding-right: 39px;
+}
+
+.foot-portfolio {
+  padding-right: 35px;
+}
+
+.foot-contact {
+  padding-right: 22px;
+}
+
+@media only screen and (min-device-width : 1024px) and (max-device-width : 1450px) {
+  
+  header {
+    padding: 0;
+  }
+  
+  .img-logo {
+    padding-left: 100px;
+  }
+
+  .service-nav{
+    padding-left: 10px;
+  }
+
+  .nav-link {
+    padding-right: 0 20 0 0;
+  }
+  
+  .navbar-text {
+    padding: 0;
+  }
+
+  .first-icon {
+    padding-left: 10px;
+  }
+
+  #about {
+    padding: 0 0 0 60px;
+  }
+
+  .row {
+    padding-left: 0;
+  }
+
+  .about-row {
+    margin-bottom: 200px;
+  }
+
+  #service {
+    padding: 0 0 0 60px;
+  }
+
+  .first-container {
+    display: flex;
+  }
+
+  .second-container {
+    margin-top: 100px;
+  }
+
+  .second-container img {
+    width: 76%;
+  }
+
+  #portfolio {
+    padding: 0 60px;
+  }
+
+  .second-img {
+    display: block;
+  }
+
+  .other-block img {
+    width: 41%;
+  }
+
+  #reviews {
+    padding: 0 0 0 20px;
+  }
+
+  #contact {
+    padding:0 0 0 50px;
+  }
+
+  .footer {
+    padding: 0;
+  }
+
+  .foot-service {
+    padding-left: 10px;
+  }
 }
