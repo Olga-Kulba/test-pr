@@ -641,3 +641,298 @@ margin-bottom: 40px;
     padding-left: 10px;
   }
 }
+
+@media only screen and (min-device-width : 375px) and (max-device-width : 375px) {
+  header {
+    padding: 0;
+  }
+
+  .logo {
+    flex-wrap: wrap;
+  }
+  
+  .img-logo {
+    width: 10%;
+  }
+  
+  .header .navbar {
+    display: flex;
+  }
+  
+  .service-nav {
+    padding-left: 10px;
+  }
+
+  .nav-link {
+    padding-right: 5px;
+    font-size: 14px;
+  }
+  
+  .navbar-text {
+    padding-left: 10px;
+    font-size: 14px;
+  }
+
+  .welcome {
+    padding-top: 200px;
+    height: 400px;
+  }
+
+  #about {
+    padding: 0;
+    margin-bottom: 250px;
+  }
+
+  .row {
+    flex-wrap: wrap;
+  }
+
+  .col-1-2 {
+    margin-top: 50px;
+  }
+
+  .about-image {
+    width: 350px;
+  }
+
+  .about-row {
+    margin-bottom: 0;
+    width: 70%;
+  }
+
+  .about {
+    font-size: 16px;
+    padding-right: 0px;
+  }
+
+  .shortly-about {
+    font-size: 14px;
+    padding-right: 0px;
+  }
+
+  .btn-learn {
+    width: 200px;
+    height: 50px;
+  }
+
+  .pink-btn {
+    width: 172px;
+    height: 42px;
+    margin-left: 0px;
+    margin-bottom: 15px;
+  }
+
+  .pink-btn span {
+    font-size: 14px;
+    padding-right: 40px;
+  }
+
+  .line {
+    visibility: hidden;
+  }
+
+  #service {
+    padding: 0;
+  }
+
+  .text-header {
+    font-size: 24px;
+  }
+
+  .text-content {
+    font-size: 14px;
+    color: #000000;
+    font-weight: 600;
+  }
+
+  .second-container img {
+    width: 375px;
+  }
+
+  .img-container {
+    flex-wrap: inherit;
+    width: max-content;
+  }
+
+  .ellipse {
+    margin-right: 15px;
+  }
+
+  .circles {
+    visibility: hidden;
+  }
+
+  .text {
+    flex-wrap: wrap;
+    width: max-content;
+    padding-top: 0px;
+    padding-right: 20px;
+  }
+
+  .text-pad {
+    padding-right: 20px;
+  }
+
+  .text-design {
+    padding-left: 20px;
+  }
+
+  .text-pad-next {
+    padding-right: 60px;
+  }
+
+  .new-btn {
+    padding-top: 20px;
+  }
+
+  #portfolio {
+    padding: 0;
+    margin-bottom: 50px;
+  }
+
+  .logo-to-port {
+    padding-top: 0;
+  }
+
+  .logo2 {
+    width: 45px;
+    padding-left: 0px;
+  }
+
+  .port-text-header {
+    font-size: 20px;
+  }
+
+  .port-text-content {
+    font-size: 12px;
+  }
+
+  .first-img {
+    display: block;
+    justify-self: flex-end;
+    margin-left: 15px;
+  }
+
+  .purple-img {
+    width: 350px;
+    height: 85px;
+    margin-right: 10px;
+    margin-left: 0px;
+    margin-top: 50px;
+  }
+
+  .second-img {
+    padding-top: 30px;
+  }
+
+  .wrapper {
+    width: 38%;
+    padding-left: 22px;
+  }
+
+  .blocks {
+    padding-left: 0;
+  }
+
+  .img-item img {
+    width: 135px;
+    padding-bottom: 10px;
+  }
+
+  .other-block img {
+    width: 170px;
+    padding-right: 40px;
+    height: 455px;
+  }
+
+  .port-text-footer {
+    font-size: 12px;
+    padding-left: 20px;
+    line-height: 15pt;
+  }
+
+  .btn-all-works {
+    margin-top: 80px;
+    margin-left: 0px;
+    padding-right: 10px;
+  }
+
+  .pink-btn span {
+    padding-left: 10px;
+    padding-right: 0px;
+  }
+
+  #reviews {
+    padding-left: 10px;
+    padding-right: 0px;
+    margin-bottom: 0;
+  }
+
+  .header-review {
+    margin-bottom: 50px;
+  }
+
+  .header-review p {
+    font-size: 20px;
+    padding-left: 20px;
+  }
+
+  hr {
+    visibility: hidden;
+  }
+
+  .people {
+    flex-direction: column;
+  }
+
+  .alex {
+    margin-bottom: 20px;
+    margin-left: 0;
+    padding-right: 20px;
+  }
+
+  .some-review {
+    width: 135px;
+    font-size: 12px;
+    padding-bottom: 20px;
+  }
+
+  #contact {
+    padding-left: 20px;
+    padding-right: 0px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .contact-block {
+    margin-bottom: 0;
+  }
+
+  .hello {
+    font-size: 20px;
+  }
+
+  .inputs {
+    width: 280px;
+  }
+
+  .icon-block {
+    margin-bottom: 15px;
+  }
+
+  .btn-send {
+    margin-bottom: 50px;
+  }
+
+  .call p {
+    font-size: 18px;
+  }
+
+  .footer {
+    padding: 0;
+  }
+
+  .foot-service {
+    padding-left: 10px;
+  }
+}
