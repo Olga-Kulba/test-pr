@@ -4,18 +4,22 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="css/main.css">
+  <script src="https://code.iconify.design/1/1.0.7/iconify.min.js"></script>
   <title>START-UP</title>
 </head>
 <body>
   <header>
     <div class="logo main">
       <img class="img-logo" src="public/img/logo.png" alt="startup logo">
-      <nav class="header navbar">
+      <nav class="header navbar topnav" id="myTopnav">
         <a class="header nav-link service-nav" href="#">Services</a>
         <a class="header nav-link about-nav" href="#">About us</a>
         <a class="header nav-link reviews-nav" href="#">Reviews</a>
         <a class="header nav-link portfolio-nav" href="#">Portfolio</a>
         <a class="header nav-link contact-nav" href="#">Contact</a>
+        <a href="javascript:void(0);" class="icon header nav-link" onclick="myFunction()">
+          <span class="iconify" data-icon="mdi:menu" data-inline="false"></span>
+        </a>
       </nav> 
       <div>
        <span class="header navbar-text color">
@@ -77,8 +81,10 @@
         <div class="row service-row">
           <div class="col-1-2 first-container">
             <div>
-              <p class="text-header color">Our services</p>
-              <p class="text-content">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+              <div class="text-container-service">
+                <p class="text-header color">Our services</p>
+                <p class="text-content">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+              </div>
               <div class="img-container main">
                 <div class="ellipse ellipse-brand">
                   <img src="public/img/ellipse.png" alt="ellipse image">
@@ -253,7 +259,7 @@
   <footer>
     <div class="footer">
       <div class="footer-nav logo main">
-        <img class="img-logo" src="public/img/logo3.png" alt="startup logo">
+        <img class="img-logo foot-logo" src="public/img/logo3.png" alt="startup logo">
         <nav class="foot-navbar navbar">
           <a class="foot-col foot-service nav-link first-nav" href="#">Services</a>
           <a class="foot-col foot-about nav-link" href="#">About us</a>
@@ -290,5 +296,15 @@
     </header>
     </div>
   </footer>
+<script>
+ function myFunction() {
+    var x = document.getElementById("myTopnav");
+    if (x.className === "topnav") {
+      x.className += " responsive";
+    } else {
+      x.className = "topnav";
+    }
+  }
+</script>
 </body>
 </html>
